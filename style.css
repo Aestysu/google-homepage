@@ -1,0 +1,50 @@
+body {
+	color: #000;
+	font-family: arial;
+	font-size: 13px;
+	margin: 0;
+}
+
+.head {
+ 	height: 30px;
+ 	width: 100%;
+ 	top:0;
+ 	margin: 15px 0;
+}
+
+nav ul {
+	float: right;
+	margin: 15px 0;
+}
+
+nav ul li {
+	display: inline;
+	margin: 0 15px 0 0;
+}
+
+.content {
+	max-width: 750px;
+	margin: 200px auto;
+}
+
+.logo {
+	max-width: 300px;
+	margin: auto;
+}
+
+img {
+	max-width: 100%;
+	height: 92px;
+	width: 272px;
+}
+
+form {
+	position: relative;
+}
+
+.footer {
+	width:100%;
+}
+
+.r_footer {float: right; padding-right: 20px}
+.l_footer {float: left; padding-left: 20px}
