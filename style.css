@@ -6,7 +6,7 @@ body {
 }
 
 .head {
- 	height: 30px;
+ 	height: 10px;
  	width: 100%;
  	top:0;
  	margin: 15px 0;
@@ -14,7 +14,7 @@ body {
 
 nav ul {
 	float: right;
-	margin: 15px 0;
+	margin: 1px 0;
 }
 
 nav ul li {
@@ -23,8 +23,8 @@ nav ul li {
 }
 
 .content {
-	max-width: 750px;
-	margin: 200px auto;
+	padding-top: 109px;
+	margin: 89px auto;
 }
 
 .logo {
@@ -42,9 +42,48 @@ form {
 	position: relative;
 }
 
-.footer {
-	width:100%;
+.searchbox {
+	display: block;
+	margin:25px auto;
+	height:40px;
+	width: 550px;
 }
 
-.r_footer {float: right; padding-right: 20px}
-.l_footer {float: left; padding-left: 20px}
+button {
+	color: #757575;
+	font-size: 13px;
+	font-weight: bold;
+	margin: 11px 4px;
+	padding: 0 16px;
+	text-align: center;
+	display: inline-block;
+	height: 35px;
+	width: 125px;
+	background: #f2f2f2;
+	border-radius: 2px;
+	border:1px solid #f2f2f2;
+}
+
+
+.footer {
+	width:100%;
+	position: fixed;
+	height: 40px;
+	border-top: 1px solid #e4e4e4;
+	border-style: solid;
+	border-width: 1px 0 0 0;
+	background: #f2f2f2;
+	min-width: 980px;
+	bottom: 0;
+	line-height: 40px;
+}
+
+.footer p {
+	display: inline;
+	color: #757575;
+	margin: 14px;
+
+}
+
+.r_footer {float: right; padding-right: 15px}
+.l_footer {float: left; padding-left: 15px}
