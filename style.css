@@ -5,7 +5,17 @@ body {
 	margin: 0;
 }
 
-p:hover { text-decoration: underline; cursor: default;}
+p:hover { 
+	text-decoration: underline; 
+	cursor: default;
+}
+
+
+a {
+	text-decoration: none; 
+	color: inherit;
+	cursor: default;
+}
 
 /* ====== Header ====== */
 .header {
@@ -23,11 +33,11 @@ nav ul li {
 	display: block;
 	width: 100%;
 	padding-top: 200px;
-	padding-bottom: 35px;
+	padding-bottom: 135px;
 	text-align: center;
 }
 
-img {
+.logo img {
 	position: relative;
 	width: 272px;
 	height: 92px;
@@ -37,7 +47,13 @@ img {
 	padding-bottom: 20px;
 }
 
-.search input{
+.searchbox {
+	position: relative;
+	width: 600px;
+	margin: auto;
+}
+
+.searchbox input{
 	border: 1px solid #ddd;
 	border-bottom: 2px solid #ddd;
 	width: 600px;
@@ -46,24 +62,35 @@ img {
 	padding: 0 15px;
 }
 
-.search input:hover {border:1px solid #AEAEAE;}
+.searchbox input:hover {border:1px solid #AEAEAE;}
+
+.mic img {
+	float: right;
+	position: relative;
+	width: 20px;
+	height: 25px;
+	top: -35px;
+	right: 10px;
+}
 
 /* ====== Buttons ====== */
 .buttons {
 	display: inline-block;
+	margin-top: 15px;
 }
 
 button {
 	background-color: #f2f2f2;
+	color: #757575;
 	border: none;
-	border-color: 1px solid #ddd;
 	font-weight: bold;
-	margin: 11px 4px;
+	margin: 6px 6px;
+	padding: 0 16px;
 	text-align: center;
 	height: 36px;
 }
 
-button:hover {border: 2px solid #ddd;}
+button:hover {border: 1px solid #cacaca;}
 
 /* ====== Footer ====== */
 .footer {
